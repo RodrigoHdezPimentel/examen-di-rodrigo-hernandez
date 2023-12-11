@@ -23,7 +23,7 @@
         android:id="@+id/logoSplash"
         android:layout_width="118dp"
         android:layout_height="514dp"
-        android:src="@drawable/huella"
+        android:src="@drawable/restaurant"
         app:layout_constraintBottom_toTopOf="@id/h1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
