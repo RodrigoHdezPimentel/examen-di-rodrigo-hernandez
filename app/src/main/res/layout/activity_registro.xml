@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Registro">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/gradient"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="597dp" />
 
     <Button
         android:id="@+id/volver"
@@ -110,7 +103,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Registrate Ya!!"
-        android:textColor="@color/orange_dark"
+        android:textColor="@color/seed"
         android:textSize="40dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="parent"

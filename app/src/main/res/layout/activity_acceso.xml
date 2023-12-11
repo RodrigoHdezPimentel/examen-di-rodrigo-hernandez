@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="@string/app_name"
-        android:textColor="@color/orange_dark"
+        android:textColor="@color/seed"
         android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,11 +55,11 @@
             style="@style/MaterialAlertDialog.Material3.Title.Text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:color="@color/seed"
             android:hint="Username"
             android:inputType="textPersonName"
             app:layout_constraintEnd_toStartOf="@+id/PaddingRight"
-            app:layout_constraintStart_toStartOf="@+id/PaddingLeft"
-            android:color="@color/orange_dark"/>
+            app:layout_constraintStart_toStartOf="@+id/PaddingLeft" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -157,11 +157,5 @@
         app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="99dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="173dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
